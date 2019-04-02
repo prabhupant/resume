@@ -1,0 +1,182 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+
+
+\cvname{Prabhu Pant} % Your name
+\cvjobtitle{Developer} % Job title/career
+
+\cvdate{15 September 1996} % Date of birth
+\cvaddress{prabhupant09@gmail.com} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+91 7408340079} % Phone number
+\cvsite{prabhupant.github.io} % Personal website
+
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 Education
+%----------------------------------------------------------------------------------------
+
+\Education{B.Tech Information Technology, GBPUA&T | 2019 | GPA:7.44/10
+\newline \newline Class XII \newline  Greenfields School | 2015 | 94.8 \%
+\newline \newline Class X \newline  Greenfields School | 2013 | 92.8 \%} % To have no Education section, just remove all the text and leave \Education{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{ \textbf{Languages}: Python, Java, Bash
+\newline  \textbf{Frameworks :} Flask, Django, Git, Android, Angular
+\newline  \textbf{Other :}  REST API, ElasticSearch, Celery, Redis, PostgreSQL
+\newline  \textbf{Relevant Courses :} Data Structures, Algorithms, Operating System, Artifical Intelligence, Computer Networks, Databases
+\newline \textbf{Certifications:} Coursera Machine Learning}
+
+
+
+\ExtraCurricular{Coordinator @ PLEXUS  \\ - Organized web development workshops 
+\\ - Conducted various events, competitions and talks
+
+\newline\newline Coordinator @ SPIC MACAY \\- Organized events to bring Indian and Western culture together
+\newline \newline Founder \& Writer @ TechBiscuits \\ - Started the blog in 2012\\
+- Reached 200,000 views in first year
+- Was named as one of the trending tech blogs of 2012 by IndiBlogger
+\newline\newline Volunteer @ NSS  \\ - Conducted camps to teach local villagers and wrote articles for the newspaper
+\newline\newline Freelance Photographer and Writer\\ - Published in magazines and exhibitions}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience and Internships}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{Since Sep'18}{Developer}{FOSSASIA, Remote Location}{Building a full-fledged event management API server using Python and Flask}
+	\twentyitem{Jun-Aug'18}{Software Development Intern}{Integration Wizards Solutions,  Bengaluru}{Designed \& built a NLP platform using Python \& NLTK to analyse users' queries. Achieved smart recommendation using ElasticSearch}
+	\twentyitem{Jun-Jul'18}{Remote Intern}{Tata Consultancy Services, Remote Location}{Developed an intelligent parking management system to make transactions smooth and paperless}
+	\twentyitem{Jun-Jul'17}{Summer Research Intern}{IIIT, Bangalore}{Developed a system to automatically convert MATLAB models to NuSMV codes while retaining all the parameters of the models}
+	
+	
+	
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+All projects available on GitHub @ github.com/prabhupant
+
+\begin{twenty} % Environment for a short list with no descriptions
+	\twentyitem{Since Sep'18}{Open Event Server} {}{Implemented various payment gateways in the server. Made various tasks asynchronous using Celery \& Redis. Actively working on its migration to new and better version.}
+	\twentyitem{Mar'19}{BotBot}{}{Built a Facebook Messenger chatbot using ExpressJS for my blog's Facebook page. Got selected to attend Facebook F8 '19 Hackathon at San Jose, California}
+	\twentyitem{Aug-Sep'18}{Casino Royale}{}{Created a web based dice betting game that uses its own currency. Dockerized the application and made a CLI for various tasks using Python Click}
+	\twentyitem{Mar '18}{Sauron}{}{Wrote a CLI BitTorrent client in Python using Asyncio library.}
+	\twentyitem{Dec '17}{Chess Game}{}{Created a two player chess game in Java using various concepts of OOP. Designed the interface using Java AWT and Swing.}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Achievements}
+
+\begin{twenty} % Environment for a short list with no descriptions
+    \twentyitem{Mar'19}{Facebook F8 Hackathon}{}{Selected for Facebook F8 Hackathon in San Jose, California.}
+    \twentyitem{Jan'19}{FOSSASIA Open Tech Nights}{}{Winner of FOSSASIA Open Tech Nights. Received grant to attend FOSSASIA '19 Summit held in Singapore.}
+	\twentyitem{Dec'18}{Pune Photo Contest}{}{Selected among top 100 photographers to be featured in a photography exhibition under Pune Photo Contest. Organized by Chiiz and Mindgraphs.}
+	\twentyitem{Feb '16}{Third - IIT Delhi's RoboTryst Zonals}{}{Secured third position in IIT Delhi's RoboTryst Zonal Rounds. Got invited to compete in RoboTryst National Finals held at IIT Delhi}
+	\twentyitem{Nov'14}{Runner Up - Pan India Blogging Contest}{}{Runner up in Pan India Blogging Contest.}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Open Source and Interests}
+
+\begin{twenty} % Environment for a list with descriptions
+
+	\twentyitem{Open Source}{Contributed to open source projects of FOSSASIA, Sugar Labs, Microsoft, Mozilla and Auth0. Coach at RGSOC '19.}{}{}
+	\twentyitem{Interests}{Computers, Photography, Guitar, Football Traveling, Reading, Writing, Gaming, Movies}{}{}
+	
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
