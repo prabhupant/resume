@@ -1,7 +1,9 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-\documentclass[margin, centered]{res}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\documentclass[margin, centered] {res}
 \topmargin=-0.5in
 \oddsidemargin -.5in
 \evensidemargin -.5in
@@ -28,26 +30,36 @@
 %----------------------------------------------------------------------------------------\
 \begin{center}
     \hspace{-\hoffset}
-    \huge\bf{\href{https://www.about.me/prabhupant}{Prabhu Pant}}
+    \huge\bf{\href{https://www.prabhupant.github.io}{Prabhu Pant}}
 \end{center}
 \vspace{-7mm}
 \moveleft\hoffset\vbox{\hrule width 19cm height 0.5pt}
 \vspace{-9mm}
 \begin{center}
     \hspace{-\hoffset}
-    \href{mailto:prabhupant09@gmail.com}{prabhupant09@gmail.com} ~\textbullet~ \(+91\) 7408340079 ~\textbullet~ \#E-1031, Rajaji Puram, Lucknow, India
+    ~\textbullet~ \href{https://www.prabhupant.github.io}{prabhupant.github.io}
+    ~\textbullet~ \href{mailto:prabhupant09@gmail.com}{prabhupant09@gmail.com} 
+    ~\textbullet~ \(+91\) 7408340079 
+    ~\textbullet~ Lucknow, India
+    
 \end{center}
 \vspace{-7mm}
 \begin{resume}
 
 %----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+\section{Objective}
+A challenging position developing softwares and services for web and kernel.
+
+%----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 \section{Education}
-\textbf{B.Tech in Information Technology, Third Year} \hfill 2015 - 2019 \\
+\textbf{B.Tech in Information Technology} \hfill 2015 - 2019 \\
 \href{http://gbpuat-tech.ac.in}{College of Technology, Pantnagar, India}
 \begin{itemize}
- \item CGPA of {\textbf{{7.11}/10}} (January 2018)
+\item CGPA of {\textbf{{7.344}/10}} (January 2019)
 \end{itemize}
 \textbf{Senior Secondary School} - \href{http://www.greenfieldsschool.org.in/}{Greenfields School, Lucknow} (ISC) - \textbf{94.8\% }\hfill 2014 - 2015 \\
 \textbf{High School} -\href{http://www.greenfieldsschool.org.in/} {Greenfields School, Lucknow} (ICSE) - \textbf{92.8\%} \hfill 2012 - 2013
@@ -58,104 +70,81 @@
 
 \section{Experience}
 
+\textbf{Software Development Intern, \href{http://iwizardsolutions.com/}{Integration Wizards Solutions}} \\
+\emph{Bangalore, India} \hfill June, 2018 - August, 2018 \\
+Designed and built a NLP platform using Python & NLTK to analyse users’ queries. Achieved smart recommendation using ElasticSearch.\
 
-\textbf{Summer Research Intern in Software Engineering Laboratory, \href{https://www.iiitb.ac.in}{IIIT Bangalore}} \\
-\emph{Mentored by Prof. Sujit Kumar Chakrabarti, Dept. of CSE, IIIT Bangalore} \hfill June, 2017 - July, 2017 \\
-Developed algorithm for automated conversion of MATLAB Simulink models to SMV code for the purpose of model checking and static verification. Implemented a real-life elevator system evaluation model to study model checking in physical world.\
+\textbf{Remote Intern, \href{https://www.tcs.com/}{Tata Consultancy Services}}  \hfill June, 2018 - July, 2018 \\
+Developed an intelligent parking management system using ASP.NET to make transactions smooth and paperless.\
+
+\textbf{Summer Research Intern, \href{https://www.iiitb.ac.in}{IIIT Bangalore}} \\
+\hfill June, 2017 - July, 2017 \\
+Developed a system to automatically convert MATLAB models to NuSMV codes while retaining all the parameters of the models.\
 
 %----------------------------------------------------------------------------------------
-%	VOLUNTEER EXPERIENCE SECTION
+%	OPEN SOURCE SECTION
 %----------------------------------------------------------------------------------------
-
-\section{Volunteer Experience}
-
-
-\textbf{Student Volunteer in News and Media, \href{http://nss.nic.in/}{National Service Scheme}} \hfill December, 2017\\
-Helped to organise various events aimed at social betterment in poverty-stricken regions of Udham Singh Nagar district of Uttarakhand. Responsible for photographing all the events and preparing articles and news for the local newspaper to bring the problems of the people into limelight.\
-
+\section{Open Source Activities}
+\begin{itemize}[leftmargin=*]
+\item  Developer at \textbf{FOSSASIA}. Contributing to their \href{https://github.com/fossasia/open-event-server}{Open Event Server} project, an event management API server built using Flask and Python.
+\item Other contributions - Mozilla, Auth0, Microsoft, EpicGames.
+\end{itemize}
 
 
 %----------------------------------------------------------------------------------------
 %	TECHNICAL SKILLS SECTION
 %----------------------------------------------------------------------------------------
 \section{Technical \hspace{2mm} Skills}
-\textbf{Strongest Areas} - Data Structures, Java \\
-\textbf{Languages} - Java, Python, C\\
-\textbf{Tools/Frameworks} - Android, MySQL, SQLite, Git
+\textbf{Strongest Areas} - Python, Bash, Flask and Data Structures\\
+\textbf{Languages} - Python, Java, Bash, JavaScript, C\\
+\textbf{Frameworks/Tools} - Flask, Git, Django, NLTK, Angular, Android, PostgreSQL, ElasticSearch, Celery, Redis, Vim, Latex
 
-%---------------------------------------------------------------------------------------
-%	PUBLICATION SECTION
-%---------------------------------------------------------------------------------------
-
-\section{Publications}
-\begin{itemize}[leftmargin=*]
-\item Dinesh Joshi, \textbf{Prabhu Pant}, ``Automated Alert Fencing System Using Arduino and GSM SIM Module'', Indian Journal of Science and Research, vol. 7, issue. 1, January 2018. \href{https://www.ijsr.net/archive/v7i1/ART20179526.pdf}{view here}
-\end{itemize}
-
-
-%----------------------------------------------------------------------------------------
-%	RELEVANT COURSES SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Relevant \hspace{2mm}Courses}
-Data Structures and Algorithms, Discrete Mathematics, Object Oriented Design, Computer Organization, Operating Systems, Software Engineering, Computer Networks
 
 %----------------------------------------------------------------------------------------
 %	Selected Projects Section
 %----------------------------------------------------------------------------------------
 \section{Selected Projects}
-All projects available on git : \url{https://www.github.com/prabhupant}
+All projects available on GitHub : \url{https://www.github.com/prabhupant}
 %\setlist[itemize]{
 \begin{itemize}[leftmargin=*]
- \item \textbf{\href{https://github.com/prabhupant/java-chatroom}{Java Chat Room}} - A chat server and client written in Java, featuring a swing GUI and MySQL back-end.
- \item \textbf{\href{https://github.com/prabhupant/QuizApp}{QuizApp}} - An Android app for GK quizes.
- \item \textbf{\href{https://github.com/prabhupant/Tetris}{Tetris}} : A basic tetris game written in python. PyQt4 framework was used for GUI programming.
- \item \textbf{\href{https://github.com/prabhupant/footwars}{Footwars}} : A basic EA Sports Fifa 18 score predictor that implements OOP concepts.
- \item \textbf{\href{https://github.com/prabhupant/elevator-model}{Evelator Model}} : A real time simulation of an elevator system made using NuSMV.
- \item \textbf{\href{https://github.com/prabhupant/file-sorter}{File-Sorter}} : A basic GTK GUI based python application to quickly categorize files in a directory based on their types. 
+ \item \textbf{\href{https://github.com/prabhupant/my-social}{My Social}} - A full fledged image sharing website built using Django
+ \item \textbf{\href{https://github.com/prabhupant/OOP-Chess}{Java Chess}} :A Chess game written in Java and created by using all OOP concepts. Used Swing to create the GUI.
+ \item \textbf{\href{https://github.com/prabhupant/casino-royale}{Casino Royale}} - A Flask based dice betting game that uses its own currency. Dockerized the application and made a CLI for various tasks using Python Click. Other technologies used - Celery, Redis, PostgreSQL.
+ \item \textbf{\href{https://github.com/prabhupant/map-my-trip}{Map My Trip}} : A Flask web application to track your trip on the map using Mapbox API.
+ \item \textbf{\href{https://github.com/prabhupant/sauronl}{Sauron}} : A BitTorrent client written in python using asyncio.
+  \item \textbf{\href{https://github.com/prabhupant/snap}{Snap}} : A bookmarking web-app made using Flask, Python and phantomjs.
+  \item \textbf{\href{https://github.com/prabhupant/note}{Note}} : A command line note taking and journal entry application built using Python.
 
 
 \end{itemize}
 
 %----------------------------------------------------------------------------------------
-%	ACHIEVEMENT SECTION
+%	ACHIEVEMENT AND AWARDS SECTION
 %----------------------------------------------------------------------------------------
 
 \section{Achievements and Awards}
 \begin{itemize}[leftmargin=*]
- \item Secured third position in IIT Delhi's RoboTryst Zonal Rounds 2016 held at Pantnagar.
- \item Selected among top 100 photographers to be featured in a photography exhibition under Pune Photo Contest. Organized by {\href{https://www.chiiz.com/}{Chiiz and Mindgraphs}}.
- \item Secured first position in Engima 2016 at College of Technology's annual tech fest Colosseum 2016. Enigma is a quizzing event based on TV shows and movies.
- \item Pan India Blogging Contest Runner-up 2014. Organized by {\href{https://www.indiblogger.in/}{IndiBlogger}}.
- \item Coordinator at Plexus, The Cultural and Technical Society of Department of Information Technology, College of Technology, Pantnagar.
- \item Co-Coordinator at SPIC MACAY, Pantnagar Chapter.
-
+\item Winner of FOSSASIA's OpenTechNight. Received grant to attend FOSSASIA '19 Summit held in Singapore.
+\item Got selected for Facebook F8 2019 Hackathon in San Jose, California.
+\item Secured third position in IIT Delhi's RoboTryst Zonal Rounds 2016.
+\item Selected among top 100 photographers to be featured in a photography exhibition under Pune Photo Contest. Organized by Chiiz Magazine.
+\item Secured first position in Engima 2016 at College of Technology's annual tech fest Colosseum 2016. Enigma is a quizzing event based on TV shows and movies.
+\item Pan India Blogging Contest Runner-up 2014. Organized by {\href{https://www.indiblogger.in/}{IndiBlogger}}.
 
 \end{itemize}
 
 %----------------------------------------------------------------------------------------
-%	HOBBIES SECTION
+%	EXTRA CURRICULAR SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Hobbies}
-Photography, Watching and Reading About Movies, Football, Reading Books, Guitar, Trekking.
-
-%----------------------------------------------------------------------------------------
-%	PERSONAL INFORMATION SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Personal \hspace{2mm} Information}
+\section{Extra Curricular}
 \begin{itemize}[leftmargin=*]
- \item Date of Birth: 15 September, 1996
- \item Place of Birth: Lucknow
- \item Languages: Hindi, English
- \item Sex: Male
-
-
+\item  \textbf{Volunteer, FOSSASIA '19 Summit Singapore} - Helped in the organisation of the annual FOSSASIA Summit held in Singapore.
+\item  \textbf{Coordinator, PLEXUS} - Organized web developments workshops. Conducted various events, competitions and talks.
+\item  \textbf{Volunteer, NSS} - Conducted camps to teach local villages and wrote articles for the newspaper to bring the cause of locals in limelight.
 \end{itemize}
 
-\section{More}
-Please visit \href{https://www.about.me/prabhpant}{https://www.about.me/prabhpant}
+
 
 \end{resume}
 \end{document}
